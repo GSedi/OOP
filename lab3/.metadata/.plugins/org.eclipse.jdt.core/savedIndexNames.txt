@@ -1,0 +1,6 @@
+INDEX VERSION 1.130+C:\Users\Администратор\Desktop\OOPq\labs\lab3\.metadata\.plugins\org.eclipse.jdt.core
+3287791287.index
+3672934390.index
+2687883480.index
+2360746096.index
+2511147313.index

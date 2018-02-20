@@ -1,0 +1,20 @@
+
+public enum Degree {
+	BACHELOR("value"), 
+	MASTER{
+		public String toString() {
+			return 	"\n 2) " + MASTER;
+		}
+	}, PHD{
+		public String toString() {
+			return 	"\n 3) " + PHD;
+		}
+	}, DOCTOR{
+		public String toString() {
+			return 	"\n 4) " + DOCTOR;
+		}
+	};
+	
+	 
+	
+}

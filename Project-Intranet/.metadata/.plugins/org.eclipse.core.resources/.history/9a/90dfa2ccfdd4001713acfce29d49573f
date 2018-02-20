@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		ArrayList<Degree> degree = new ArrayList<Degree>(Arrays.asList(Degree.values()));
+		System.out.println(degree.get(1));
+		
+
+	}
+
+}

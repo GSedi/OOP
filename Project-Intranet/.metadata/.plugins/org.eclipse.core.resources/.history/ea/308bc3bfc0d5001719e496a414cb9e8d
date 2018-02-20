@@ -1,0 +1,107 @@
+
+import java.util.*;
+import java.lang.*;
+
+public class Teacher extends Employee {
+
+	private ArrayList<Course> courses;
+	private HashMap<Course, Vector<Student> > students;
+//	private Order order;
+	private Position position;
+	private Degree degree;
+	private int rating;
+	public Teacher() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Teacher(int salary) {
+		super(salary);
+		// TODO Auto-generated constructor stub
+	}
+
+	public Teacher(String id, String password, String name, String surname) {
+		super(id, password, name, surname);
+		// TODO Auto-generated constructor stub
+	}
+
+	public Teacher(String name, String surname, String id, String password, Degree degree, Position position) {
+		super(id, password, name, surname);
+		this.position = position;
+		this.degree = degree;
+	}
+
+	public int cnt;
+
+	public ArrayList<Course> getCourses() {
+	    return this.courses;
+	}
+
+	public void manageCourseFiles() {
+	}
+
+	public HashMap<Course, Vector<Student>> getStudents() {
+	    return this.students;
+	}
+
+	public void putMarks(Student a, Mark e) {
+		//a.setTranscript(transcript);
+	}
+
+	public int compareTo(Object other) {
+		Object a = (Teacher) other;
+		return super.compareTo(a);
+	}
+	
+	public User clone() throws CloneNotSupportedException {
+	    Teacher cloned = (Teacher) super.clone();
+		return cloned;
+	}
+
+	public int hashCode() {
+	    return Objects.hash(this);
+	}
+
+	public boolean equals(Object a) {
+	    return Objects.equals(this, a);
+	}
+
+	
+
+	public Position getPosition() {
+	    return this.position;
+	}
+
+	public Degree getDegree() {
+	    return this.degree;
+	}
+
+	public String toString() {
+	    return super.toString() + " Degree: " + this.degree + "Position: " + this.position;
+	}
+
+	public void setCourses(java.util.ArrayList<Course> courses) {
+		this.courses = courses;
+	}
+
+	public void setStudents(java.util.HashMap<Course, Vector<Student>> students) {
+		this.students = students;
+	}
+
+	public void setPosition(Position position) {
+		this.position = position;
+	}
+
+	public void setDegree(Degree degree) {
+		this.degree = degree;
+	}
+
+	public int getRating() {
+	    return this.rating;
+	}
+	
+	public void setRating(int rating) {
+		cnt = cnt + 1;
+		this.rating = (this.rating + rating)/cnt;
+	}
+}

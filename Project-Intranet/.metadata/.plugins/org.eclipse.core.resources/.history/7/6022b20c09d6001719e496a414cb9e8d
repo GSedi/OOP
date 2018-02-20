@@ -1,0 +1,96 @@
+
+import java.io.Serializable;
+import java.lang.*;
+import java.util.*;
+import java.util.Objects;
+
+
+
+public abstract class User implements Serializable, Cloneable, Comparable {
+
+	private String id;
+	private String password;
+	private String name;
+    private String surname;
+    
+    
+
+    public User() {
+		this.id = null;
+		this.password = null;
+		this.name = null;
+		this.surname = null;
+	}
+
+	public User(String name, String surname, String id, String password) {
+		super();
+		this.id = id;
+		this.password = password;
+		this.name = name;
+		this.surname = surname;
+	}
+
+	public String getId() {
+        return this.id;
+    }
+
+    public void setId(String id) {
+    	this.id = id;
+    }
+
+    public String getPassword() {
+        return this.password;
+    }
+
+    public void setPassword(String password) {
+    	this.password = password;
+    }
+
+    public String toString() {
+        return "Name: " + this.name + " Surname: " + this.surname + " Id " + this.id;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+    	this.name = name;
+    }
+
+    public String getSurname() {
+        return this.surname;
+    }
+
+    public void setSurname(String surname) {
+    	this.surname = surname;
+    }
+
+    public boolean equals(Object other) {
+    	if (other == null) return false;
+		if (other == this) return true;
+		if (!(other instanceof User)) return false;
+		User aa = (User) other;
+		return Objects.equals(this.name, aa.name) && Objects.equals(this.surname, aa.surname) && Objects.equals(this.id, aa.id) && Objects.equals(this.password, aa.password);
+    	
+    }
+
+    @Override
+    public int compareTo(Object other) {
+        User user = (User)other;
+        if(this.surname.compareTo(user.surname) == 0) {
+        	return this.name.compareTo(user.name);
+        }
+        else return this.surname.compareTo(user.surname);
+    }
+
+    public Object clone() throws CloneNotSupportedException {
+    	User cloned = (User) super.clone();
+		return cloned;
+    }
+
+
+    public int hashCode() {
+        return Objects.hash(this);
+    }
+}

@@ -1,0 +1,9 @@
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		Vector<Degree> degree = new Vector<Degree>(Arrays.asList(Degree.values()));
+
+	}
+
+}

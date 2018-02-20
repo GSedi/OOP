@@ -1,0 +1,4 @@
+aaa bbb 100
+bbb aaa 55
+ccc ddd 70
+ddd ccc 88

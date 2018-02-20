@@ -1,0 +1,7 @@
+1) bbb aaa - "A"
+2) ccc ddd - "B"
+3) ddd ccc - "C"
+4) aaa bbb - "F"
+Average - 78
+Maximum - 100
+Minimum - 55

@@ -1,0 +1,99 @@
+Sedi
+255920989
+
+
+Wed Nov 01 19:10:05 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 19:10:05 ALMT 2017 admin added new Course "aaa"
+
+Wed Nov 01 19:10:05 ALMT 2017 admin logout in to a system
+
+Wed Nov 01 19:14:11 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 19:14:11 ALMT 2017 admin added new Textbook "fff"
+
+Wed Nov 01 19:14:11 ALMT 2017 admin added new Instructor "32323 fdf"
+
+Wed Nov 01 19:14:11 ALMT 2017 admin logout in to a system
+
+Wed Nov 01 19:45:42 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 19:45:42 ALMT 2017 admin added new Course "aaa"
+
+Wed Nov 01 19:45:42 ALMT 2017 admin added new Textbook "rrr"
+
+Wed Nov 01 19:45:42 ALMT 2017 admin added new Instructor "qqq www"
+
+Wed Nov 01 19:45:42 ALMT 2017 admin added new Course "zzz"
+
+Wed Nov 01 19:45:42 ALMT 2017 admin logout in to a system
+
+Wed Nov 01 19:50:49 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 19:50:49 ALMT 2017 admin added new Course "aaa"
+
+Wed Nov 01 19:50:49 ALMT 2017 admin logout in to a system
+
+Wed Nov 01 19:58:13 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 19:58:13 ALMT 2017 admin added new Course "aaa"
+
+Wed Nov 01 19:58:13 ALMT 2017 admin logout in to a system
+
+Wed Nov 01 20:02:30 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 20:02:30 ALMT 2017 admin added new Course "aaa"
+
+Wed Nov 01 20:02:30 ALMT 2017 admin added new Textbook "zzz"
+
+Wed Nov 01 20:02:30 ALMT 2017 admin added new Instructor "qqq www"
+
+Wed Nov 01 20:02:30 ALMT 2017 admin added new Course "ppp"
+
+Wed Nov 01 20:02:30 ALMT 2017 admin logout in to a system
+
+Wed Nov 01 20:17:51 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 20:17:51 ALMT 2017 admin added new Course "aaa"
+
+Wed Nov 01 20:17:51 ALMT 2017 admin logout in to a system
+
+Wed Nov 01 20:25:50 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 20:25:50 ALMT 2017 admin added new Course "aaa"
+
+Wed Nov 01 20:25:50 ALMT 2017 admin logout in to a system
+
+Wed Nov 01 20:28:24 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 20:28:24 ALMT 2017 admin added new Course "qqq"
+
+Wed Nov 01 20:28:24 ALMT 2017 admin logout in to a system
+
+Wed Nov 01 20:31:56 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 20:31:56 ALMT 2017 admin added new Instructor "sss fff"
+
+Wed Nov 01 20:31:56 ALMT 2017 admin added new Textbook "ppp"
+
+Wed Nov 01 20:31:56 ALMT 2017 admin logout in to a system
+
+Wed Nov 01 20:33:33 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 20:33:33 ALMT 2017 admin added new Course "mmm"
+
+Wed Nov 01 20:33:33 ALMT 2017 admin logout in to a system
+
+Wed Nov 01 20:44:10 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 20:44:10 ALMT 2017 admin logout in to a system
+
+Wed Nov 01 20:44:33 ALMT 2017 admin logged in to a system
+
+Wed Nov 01 20:44:33 ALMT 2017 admin logout in to a system
+
+Wed Nov 08 10:54:53 ALMT 2017 admin logged in to a system
+
+Wed Nov 08 10:54:53 ALMT 2017 admin added new Course "qdvwgshdj"
+
+Wed Nov 08 10:54:53 ALMT 2017 admin logout in to a system

@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Degree degree = Degree.BACHELOR;
+		System.out.println(Degree.values().toString());
+
+	}
+
+}

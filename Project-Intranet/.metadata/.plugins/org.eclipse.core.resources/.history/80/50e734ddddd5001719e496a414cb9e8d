@@ -1,0 +1,102 @@
+import java.util.*;
+import java.lang.*;
+
+public class Teacher extends Employee {
+
+	public HashMap<Integer, Course> courses;
+	public HashMap<Course, Vector<Student> > students;
+	private Order order;
+	private Position position;
+	private Degree degree;
+	private int rating;
+	public int cnt;
+
+	public String getCourses() {
+	    return this.courses.toString();
+	}
+
+	public void manageCourseFiles() {
+	}
+
+	public Vector<Student> getStudentsCourse(Course course) {
+	    return this.students.get(course);
+	}
+
+	public int compareTo(Object other) {
+		Object a = (Teacher) other;
+		return super.compareTo(a);
+	}
+	
+	public User clone() throws CloneNotSupportedException {
+	    Teacher cloned = (Teacher) super.clone();
+		return cloned;
+	}
+
+	public int hashCode() {
+	    return Objects.hash(this);
+	}
+
+	public boolean equals(Object a) {
+	    return Objects.equals(this, a);
+	}
+
+	
+
+	public Position getPosition() {
+	    return this.position;
+	}
+
+	public Degree getDegree() {
+	    return this.degree;
+	}
+
+	public String toString() {
+	    return super.toString() + " Degree: " + this.degree + "Position: " + this.position;
+	}
+
+	public void setCourse(int id, Course course) {
+		this.courses.put(id, course);
+	}
+
+	public void setStudentstoCourse(Course course, Vector<Student> _students) {
+		this.students.put(course, _students);
+		for(int i = 0; i < _students.size(); i++) {
+			int j = _students.get(i).course.size()+1;
+			_students.get(i).setCourse(j, course);
+		}
+	}
+
+	public void setPosition(Position position) {
+		this.position = position;
+	}
+
+	public void setDegree(Degree degree) {
+		this.degree = degree;
+	}
+
+	public int getRating() {
+	    return this.rating;
+	}
+	
+	public void setRating(int rating) {
+		cnt = cnt + 1;
+		this.rating = (this.rating + rating)/cnt;
+	}
+
+	public Teacher() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Teacher(String name, String surname, String id, String password,Degree degree, Position position) {
+		super(name, surname, id, password);
+		this.position = position;
+		this.degree = degree;
+	}
+
+	public Teacher(Position position, Degree degree) {
+		super();
+		this.position = position;
+		this.degree = degree;
+	}
+}

@@ -1,0 +1,63 @@
+
+import java.util.*;
+
+public class Employee extends User {
+
+	private int salary;
+	
+	public Employee() {
+		super();
+	}
+	
+	
+	public Employee(String name, String surname, String id, String password) {
+		super(name, surname, id, password);
+		
+	}
+
+
+	public Employee(int salary) {
+		super();
+		this.salary = salary;
+	}
+
+
+	public int getSalary() {
+	    return this.salary;
+	}
+	
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	
+	public String toString() {
+	    return "\n" + super.toString() + "\nSalary: " + this.salary;
+	}
+	
+	public int compareTo(Object other) {
+	    return super.compareTo(other);
+	}
+	
+	public User clone() throws CloneNotSupportedException {
+	    Employee cloned = (Employee) super.clone();
+	    return cloned;
+	}
+	
+	public int hashCode() {
+	    return Objects.hash(this);
+	}
+	
+	public boolean equals(Object a) {
+	    Employee emp = (Employee) a;
+	    return Objects.equals(this, emp);	
+	}
+	
+	public Vector<Order> getOrder() {
+	    return Database.orders;
+	}
+	
+	public void setOrder(Order order) {
+		Database.orders.add(order);
+	}
+}
+

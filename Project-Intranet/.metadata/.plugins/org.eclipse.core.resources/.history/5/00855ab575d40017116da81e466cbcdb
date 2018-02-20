@@ -1,0 +1,29 @@
+import java.util.*;
+import java.io.*;
+public class Database {
+	static Vector<User> users  = new Vector<User>();
+	static Vector<Student> students = new Vector<Student>();
+	static Vector<Teacher> teachers = new Vector<Teacher>();
+	static Vector<Manager> managers = new Vector<Manager>();
+	static Vector<Executor> executors = new Vector<Executor>();
+	static Vector<Admin> admins = new Vector<Admin>();
+ 			
+	static FileInputStream fis;
+	static FileOutputStream fos;
+	static ObjectOutputStream oos;
+	static ObjectInputStream oin;
+	
+	public static void desUsers() throws IOException, ClassNotFoundException{
+		fis = new FileInputStream("users.ser");
+		oin = new ObjectInputStream(fis);
+		users = (Vector<User>) oin.readObject();
+	}
+	
+	public static void serUsers() throws IOException, ClassNotFoundException{
+		fos = new FileOutputStream("users.ser");
+		oos = new ObjectOutputStream(fos);
+		oos.writeObject(users);
+		oos.close();
+	}
+
+}

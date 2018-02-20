@@ -1,0 +1,12 @@
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		Degree degree = Degree.BACHELOR;
+		for (Degree info : EnumSet.allOf(Degree.class)) {
+		    System.out.println(info);
+		}
+
+	}
+
+}
